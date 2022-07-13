@@ -1,0 +1,66 @@
+.footer{
+    padding: 70px 0 98px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255,255,255,.15);
+    }
+
+    &__copyrights{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.9);
+        margin: 25px 0 21px;
+    }
+
+    &__addInfo{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 0.55);
+    }
+
+    &__category{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.9);
+
+        &:nth-child(2){
+            margin-left: 11vw;
+        }
+    }
+
+    &__item{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.55);
+
+        &_title{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 40px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+    }
+
+
+
+}

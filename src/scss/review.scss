@@ -1,0 +1,40 @@
+.review{
+    padding: 200px 0 250px;
+    .swiper-slide{
+        display: flex;
+        justify-content: center;
+    }
+    &__slide{
+        width: 100%;
+        max-width: 862px;
+        display: flex;
+        justify-content: space-between;
+
+        &-img{
+            width: 200px
+        }
+        &-text{
+            // width: 50%;
+            padding-top: 128px;
+            font-family: 'Roboto',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            letter-spacing: 0.015em;
+            color: rgba(255, 255, 255, 0.78);
+            position: relative;
+
+            &::before{
+                content: "";
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                transform: translate(-50px,-50px);
+                background: url(../images/review/quotes.svg);
+            }
+
+        }
+    }
+    
+}

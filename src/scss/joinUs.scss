@@ -1,0 +1,30 @@
+.joinUs{
+    padding-bottom: 240px;
+    text-align: center;
+
+    &__title{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 130%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    &__subtitle{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.55);
+        margin: 25px 0 100px;
+    }
+
+    .form{
+        display: block;
+        margin: auto;
+    }
+}
